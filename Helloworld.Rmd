@@ -1,0 +1,31 @@
+---
+title: "Helloworld"
+author: "Paopal"
+date: "5/6/2020"
+output:
+  word_document: default
+  pdf_document: default
+  html_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## This is a markdown file 
+
+This is my first R Markdown document for the first project of Data Scientist with R Course in Coursera. 
+I have learned that the embed an R code chunk for printing the Hello World is as below:
+
+```{r}
+print("Hello World")
+```
+
+When you want to build another type of output string or number, you can still use the same command, try below code:
+
+```{r}
+print("Hello World from the other side")
+print(123)
+```
+
+thank you.. 
